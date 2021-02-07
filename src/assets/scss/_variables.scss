@@ -1,0 +1,85 @@
+$minWidth: 20rem !default;
+$maxWidth: 71.25rem !default;
+$maxWidthSm: 64rem !default;
+$gutter: 2rem !default;
+$gutterLg: 4rem !default;
+$gutterSm: 1rem !default;
+$marginBase: 1.5rem !default;
+
+// Breakpoints
+$breakpoints: (
+  xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+  xl: 1200px
+) !default;
+
+:root {
+  @each $bp, $value in $breakpoints {
+    --#{$bp}: #{$value};
+  }
+}
+
+// colors
+$white: #fff;
+$whitesmoke: #f5f5f5;
+$text: #666;
+$black: #000;
+$lightblack: #333;
+
+$eggshell: #F4F1DE;
+$terraCotta: #E07A5F;
+$slate: #3D405B;
+$greenSheen: #81B29A;
+$deepChampagne: #F2CC8F;
+
+
+$primary: slategray;
+$accent: tomato;
+$night: #2D3242;
+
+$success: #2ecc71;
+$info: #3498db;
+$warning: #f1c40f;
+$danger: #e74c3c;
+
+$fills: () !default;
+
+$fills: (
+	primary: $primary,
+	accent: $accent,
+	night: $night,
+	white: $white,
+	black: $black,
+	lightblack: $lightblack
+);
+
+// variables ————>
+$base-duration: 250ms;
+
+// fonts
+$fontSizeBase: 1rem;
+$lineHeightBase: 1.3;
+$fontColorLight: $white;
+$fontWeightBase: 400;
+$fontFamilyBase: 'Open Sans', sans-serif;
+
+$h1Size: 2.25rem;
+$h2Size: 2rem;
+$h3Size: 1.75rem;
+$h4Size: 1.5rem;
+$h5Size: 1.25rem;
+$h6Size: 1rem;
+$lineHeightHeadings: 1.25;
+$fontWeightHeadings: 400;
+$fontFamilyHeadings: 'Roboto Mono', monospace;
+
+$fontColorBase: $text;
+$linkColorBase: $accent;
+$linkColorHoverBase: $primary;
+
+$borderColor: $primary;
+
+$focusProperty: outline;
+$focusValue: 3px solid $warning;

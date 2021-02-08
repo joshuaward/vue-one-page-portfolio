@@ -9,8 +9,8 @@ section.view.view--home
 			img(src="https://images.pexels.com/photos/113338/pexels-photo-113338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
 	.view__intro
 		.view__inner
-			//- .view__intro-img
-			//- 	img(src="https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+			.view__intro-img
+				img(src="https://images.unsplash.com/photo-1612434995720-89c1537a3009?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
 			h2.view__intro-title This is the homepage
 			p.view__intro-copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id semper risus in hendrerit. Eget sit amet tellus cras. Ornare arcu odio ut sem. Libero id faucibus nisl tincidunt eget. Sit amet luctus venenatis lectus magna. Placerat duis ultricies lacus sed turpis. Tempus imperdiet nulla malesuada pellentesque elit. Sed augue lacus viverra vitae congue eu consequat ac. Turpis tincidunt id aliquet risus feugiat. Eu facilisis sed odio morbi. Sapien eget mi proin sed libero enim sed. Justo eget magna fermentum iaculis eu. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit. Gravida cum sociis natoque penatibus. Fermentum iaculis eu non diam.
 
